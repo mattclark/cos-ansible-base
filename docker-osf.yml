@@ -119,3 +119,6 @@
 
     - role: docker-nginx
       when: docker_nginx
+
+    - role: docker-tokumx
+      when: docker_tokumx
